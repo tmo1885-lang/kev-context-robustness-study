@@ -123,5 +123,9 @@
       "path": "results/qwen_base_direct_choice_control.json",
       "sha256": "06737b29fe4000d4f374a570bf8debd475aac40c898ec90bfd1427137a18270f"
     }
-  ]
+  ],
+  "release_version": "v1.0.0",
+  "release_date": "2026-09-22",
+  "license": "CC-BY-4.0",
+  "release_status": "frozen"
 }
