@@ -86,3 +86,14 @@ Velorin Intelligence is not affiliated with or endorsed by Jared Palmer, the Kev
 The frozen study records exact Kev model revisions and preserves the raw result artifacts used in the analysis. Larger-model inference controls were run on a Modal H100; no models were trained as part of this study.
 
 The original Kev source code is **not** reproduced in this standalone repository.
+
+
+## License
+
+Except where otherwise noted, the original research text, analysis, tables, figures, and result datasets in this repository are licensed under the **Creative Commons Attribution 4.0 International License (CC BY 4.0)**.
+
+See [`LICENSE`](LICENSE) for the license text and [`LICENSE_SCOPE.md`](LICENSE_SCOPE.md) for scope and third-party exclusions.
+
+Attribution should identify **Velorin Intelligence** and link to this repository when reasonably practicable.
+
+Kev, Qwen, Jev, TypeSafe, and other third-party projects, names, software, models, and materials retain their own licenses and rights. This repository does not relicense those third-party materials.
