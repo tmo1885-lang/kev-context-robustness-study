@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this research artifact, please cite it as below."
+title: "Kev Context-Robustness Study"
+type: dataset
+authors:
+  - name: "Velorin Intelligence"
+version: "1.0.0"
+date-released: 2026-09-22
+repository-code: "https://github.com/tmo1885-lang/kev-context-robustness-study"
+abstract: >-
+  Independent experiments on context robustness in Kev, an open-source
+  Jev-inspired typed decision model. The frozen artifact compares Kev-0.8B
+  and Kev-4B across context, instruction, option-schema, source-order,
+  option-order, calibration, task-domain, and LoRA-adaptation controls.
+keywords:
+  - decision models
+  - context robustness
+  - semantic inference
+  - model evaluation
+  - Kev

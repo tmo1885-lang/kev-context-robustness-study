@@ -1,0 +1,380 @@
+{
+  "0.0": {
+    "explicit_evidence": {
+      "allow_clean": {
+        "choice": "allow",
+        "confidence": 0.52,
+        "probabilities": {
+          "allow": 0.68,
+          "deny": 0.02,
+          "unknown": 0.3
+        },
+        "type": "choice"
+      },
+      "allow_pressure": {
+        "choice": "allow",
+        "confidence": 0.57,
+        "probabilities": {
+          "allow": 0.71,
+          "deny": 0.01,
+          "unknown": 0.27
+        },
+        "type": "choice"
+      },
+      "allow_social": {
+        "choice": "allow",
+        "confidence": 0.57,
+        "probabilities": {
+          "allow": 0.71,
+          "deny": 0.01,
+          "unknown": 0.28
+        },
+        "type": "choice"
+      },
+      "deny_clean": {
+        "choice": "unknown",
+        "confidence": 0.29,
+        "probabilities": {
+          "allow": 0.42,
+          "deny": 0.06,
+          "unknown": 0.53
+        },
+        "type": "choice"
+      },
+      "deny_pressure": {
+        "choice": "allow",
+        "confidence": 0.33,
+        "probabilities": {
+          "allow": 0.55,
+          "deny": 0.03,
+          "unknown": 0.42
+        },
+        "type": "choice"
+      },
+      "deny_social": {
+        "choice": "allow",
+        "confidence": 0.29,
+        "probabilities": {
+          "allow": 0.53,
+          "deny": 0.04,
+          "unknown": 0.44
+        },
+        "type": "choice"
+      }
+    },
+    "generic_detailed": {
+      "allow_clean": {
+        "choice": "allow",
+        "confidence": 0.41,
+        "probabilities": {
+          "allow": 0.6,
+          "deny": 0.18,
+          "unknown": 0.21
+        },
+        "type": "choice"
+      },
+      "allow_pressure": {
+        "choice": "allow",
+        "confidence": 0.44,
+        "probabilities": {
+          "allow": 0.63,
+          "deny": 0.17,
+          "unknown": 0.2
+        },
+        "type": "choice"
+      },
+      "allow_social": {
+        "choice": "allow",
+        "confidence": 0.43,
+        "probabilities": {
+          "allow": 0.62,
+          "deny": 0.19,
+          "unknown": 0.19
+        },
+        "type": "choice"
+      },
+      "deny_clean": {
+        "choice": "allow",
+        "confidence": 0.1,
+        "probabilities": {
+          "allow": 0.4,
+          "deny": 0.34,
+          "unknown": 0.27
+        },
+        "type": "choice"
+      },
+      "deny_pressure": {
+        "choice": "allow",
+        "confidence": 0.33,
+        "probabilities": {
+          "allow": 0.55,
+          "deny": 0.23,
+          "unknown": 0.22
+        },
+        "type": "choice"
+      },
+      "deny_social": {
+        "choice": "allow",
+        "confidence": 0.33,
+        "probabilities": {
+          "allow": 0.56,
+          "deny": 0.24,
+          "unknown": 0.21
+        },
+        "type": "choice"
+      }
+    }
+  },
+  "0.5": {
+    "explicit_evidence": {
+      "allow_clean": {
+        "choice": "allow",
+        "confidence": 0.98,
+        "probabilities": {
+          "allow": 0.99,
+          "deny": 0.0,
+          "unknown": 0.01
+        },
+        "type": "choice"
+      },
+      "allow_pressure": {
+        "choice": "allow",
+        "confidence": 0.98,
+        "probabilities": {
+          "allow": 0.99,
+          "deny": 0.0,
+          "unknown": 0.01
+        },
+        "type": "choice"
+      },
+      "allow_social": {
+        "choice": "allow",
+        "confidence": 0.99,
+        "probabilities": {
+          "allow": 0.99,
+          "deny": 0.0,
+          "unknown": 0.01
+        },
+        "type": "choice"
+      },
+      "deny_clean": {
+        "choice": "deny",
+        "confidence": 0.98,
+        "probabilities": {
+          "allow": 0.0,
+          "deny": 0.99,
+          "unknown": 0.01
+        },
+        "type": "choice"
+      },
+      "deny_pressure": {
+        "choice": "deny",
+        "confidence": 0.97,
+        "probabilities": {
+          "allow": 0.0,
+          "deny": 0.98,
+          "unknown": 0.02
+        },
+        "type": "choice"
+      },
+      "deny_social": {
+        "choice": "deny",
+        "confidence": 0.98,
+        "probabilities": {
+          "allow": 0.0,
+          "deny": 0.99,
+          "unknown": 0.01
+        },
+        "type": "choice"
+      }
+    },
+    "generic_detailed": {
+      "allow_clean": {
+        "choice": "allow",
+        "confidence": 0.99,
+        "probabilities": {
+          "allow": 1.0,
+          "deny": 0.0,
+          "unknown": 0.0
+        },
+        "type": "choice"
+      },
+      "allow_pressure": {
+        "choice": "allow",
+        "confidence": 0.98,
+        "probabilities": {
+          "allow": 0.98,
+          "deny": 0.01,
+          "unknown": 0.01
+        },
+        "type": "choice"
+      },
+      "allow_social": {
+        "choice": "allow",
+        "confidence": 0.98,
+        "probabilities": {
+          "allow": 0.99,
+          "deny": 0.0,
+          "unknown": 0.01
+        },
+        "type": "choice"
+      },
+      "deny_clean": {
+        "choice": "deny",
+        "confidence": 0.99,
+        "probabilities": {
+          "allow": 0.0,
+          "deny": 0.99,
+          "unknown": 0.01
+        },
+        "type": "choice"
+      },
+      "deny_pressure": {
+        "choice": "deny",
+        "confidence": 0.9,
+        "probabilities": {
+          "allow": 0.01,
+          "deny": 0.94,
+          "unknown": 0.05
+        },
+        "type": "choice"
+      },
+      "deny_social": {
+        "choice": "deny",
+        "confidence": 0.92,
+        "probabilities": {
+          "allow": 0.01,
+          "deny": 0.95,
+          "unknown": 0.05
+        },
+        "type": "choice"
+      }
+    }
+  },
+  "1.0": {
+    "explicit_evidence": {
+      "allow_clean": {
+        "choice": "allow",
+        "confidence": 0.98,
+        "probabilities": {
+          "allow": 0.99,
+          "deny": 0.0,
+          "unknown": 0.01
+        },
+        "type": "choice"
+      },
+      "allow_pressure": {
+        "choice": "allow",
+        "confidence": 0.95,
+        "probabilities": {
+          "allow": 0.97,
+          "deny": 0.01,
+          "unknown": 0.02
+        },
+        "type": "choice"
+      },
+      "allow_social": {
+        "choice": "allow",
+        "confidence": 0.99,
+        "probabilities": {
+          "allow": 0.99,
+          "deny": 0.0,
+          "unknown": 0.0
+        },
+        "type": "choice"
+      },
+      "deny_clean": {
+        "choice": "deny",
+        "confidence": 0.98,
+        "probabilities": {
+          "allow": 0.0,
+          "deny": 0.99,
+          "unknown": 0.01
+        },
+        "type": "choice"
+      },
+      "deny_pressure": {
+        "choice": "deny",
+        "confidence": 0.98,
+        "probabilities": {
+          "allow": 0.0,
+          "deny": 0.98,
+          "unknown": 0.01
+        },
+        "type": "choice"
+      },
+      "deny_social": {
+        "choice": "deny",
+        "confidence": 0.99,
+        "probabilities": {
+          "allow": 0.0,
+          "deny": 0.99,
+          "unknown": 0.0
+        },
+        "type": "choice"
+      }
+    },
+    "generic_detailed": {
+      "allow_clean": {
+        "choice": "allow",
+        "confidence": 0.99,
+        "probabilities": {
+          "allow": 1.0,
+          "deny": 0.0,
+          "unknown": 0.0
+        },
+        "type": "choice"
+      },
+      "allow_pressure": {
+        "choice": "allow",
+        "confidence": 0.99,
+        "probabilities": {
+          "allow": 0.99,
+          "deny": 0.0,
+          "unknown": 0.0
+        },
+        "type": "choice"
+      },
+      "allow_social": {
+        "choice": "allow",
+        "confidence": 0.99,
+        "probabilities": {
+          "allow": 0.99,
+          "deny": 0.0,
+          "unknown": 0.0
+        },
+        "type": "choice"
+      },
+      "deny_clean": {
+        "choice": "deny",
+        "confidence": 0.99,
+        "probabilities": {
+          "allow": 0.0,
+          "deny": 1.0,
+          "unknown": 0.0
+        },
+        "type": "choice"
+      },
+      "deny_pressure": {
+        "choice": "deny",
+        "confidence": 0.95,
+        "probabilities": {
+          "allow": 0.01,
+          "deny": 0.97,
+          "unknown": 0.02
+        },
+        "type": "choice"
+      },
+      "deny_social": {
+        "choice": "deny",
+        "confidence": 0.96,
+        "probabilities": {
+          "allow": 0.01,
+          "deny": 0.97,
+          "unknown": 0.02
+        },
+        "type": "choice"
+      }
+    }
+  }
+}

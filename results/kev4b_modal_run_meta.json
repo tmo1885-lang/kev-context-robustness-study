@@ -1,0 +1,10 @@
+{
+  "gpu": "H100",
+  "modal_run_url": "https://modal.com/apps/tmo1885/main/ap-5G3Krzl8SV8zOhJRzTTAo3",
+  "model": "jaredpalmer/kev-4b",
+  "note": "Metered total was observed after initial image-build/setup attempts plus the successful run; it is not asserted as the isolated cost of the successful inference function.",
+  "observed_workspace_billed_cost_usd": 0.0,
+  "observed_workspace_credits_applied_usd": 0.18,
+  "observed_workspace_metered_cost_after_setup_and_run_usd": 0.18,
+  "successful_invocation_elapsed_seconds": 178
+}

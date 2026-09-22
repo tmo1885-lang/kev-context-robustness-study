@@ -1,0 +1,1151 @@
+{
+  "model": "jaredpalmer/kev-4b",
+  "option_order": [
+    {
+      "allow": 0.99,
+      "choice": "allow",
+      "deny": 0.0,
+      "order": [
+        "allow",
+        "deny",
+        "unknown"
+      ],
+      "state": "auth_allow",
+      "unknown": 0.01
+    },
+    {
+      "allow": 0.99,
+      "choice": "allow",
+      "deny": 0.0,
+      "order": [
+        "allow",
+        "unknown",
+        "deny"
+      ],
+      "state": "auth_allow",
+      "unknown": 0.01
+    },
+    {
+      "allow": 0.99,
+      "choice": "allow",
+      "deny": 0.01,
+      "order": [
+        "deny",
+        "allow",
+        "unknown"
+      ],
+      "state": "auth_allow",
+      "unknown": 0.01
+    },
+    {
+      "allow": 0.99,
+      "choice": "allow",
+      "deny": 0.01,
+      "order": [
+        "deny",
+        "unknown",
+        "allow"
+      ],
+      "state": "auth_allow",
+      "unknown": 0.01
+    },
+    {
+      "allow": 0.98,
+      "choice": "allow",
+      "deny": 0.01,
+      "order": [
+        "unknown",
+        "allow",
+        "deny"
+      ],
+      "state": "auth_allow",
+      "unknown": 0.01
+    },
+    {
+      "allow": 0.99,
+      "choice": "allow",
+      "deny": 0.0,
+      "order": [
+        "unknown",
+        "deny",
+        "allow"
+      ],
+      "state": "auth_allow",
+      "unknown": 0.01
+    },
+    {
+      "allow": 0.99,
+      "choice": "allow",
+      "deny": 0.0,
+      "order": [
+        "allow",
+        "deny",
+        "unknown"
+      ],
+      "state": "auth_allow_social",
+      "unknown": 0.0
+    },
+    {
+      "allow": 0.99,
+      "choice": "allow",
+      "deny": 0.0,
+      "order": [
+        "allow",
+        "unknown",
+        "deny"
+      ],
+      "state": "auth_allow_social",
+      "unknown": 0.01
+    },
+    {
+      "allow": 0.99,
+      "choice": "allow",
+      "deny": 0.01,
+      "order": [
+        "deny",
+        "allow",
+        "unknown"
+      ],
+      "state": "auth_allow_social",
+      "unknown": 0.01
+    },
+    {
+      "allow": 0.99,
+      "choice": "allow",
+      "deny": 0.01,
+      "order": [
+        "deny",
+        "unknown",
+        "allow"
+      ],
+      "state": "auth_allow_social",
+      "unknown": 0.01
+    },
+    {
+      "allow": 0.99,
+      "choice": "allow",
+      "deny": 0.0,
+      "order": [
+        "unknown",
+        "allow",
+        "deny"
+      ],
+      "state": "auth_allow_social",
+      "unknown": 0.01
+    },
+    {
+      "allow": 0.99,
+      "choice": "allow",
+      "deny": 0.0,
+      "order": [
+        "unknown",
+        "deny",
+        "allow"
+      ],
+      "state": "auth_allow_social",
+      "unknown": 0.01
+    },
+    {
+      "allow": 0.97,
+      "choice": "allow",
+      "deny": 0.01,
+      "order": [
+        "allow",
+        "deny",
+        "unknown"
+      ],
+      "state": "auth_allow_pressure",
+      "unknown": 0.02
+    },
+    {
+      "allow": 0.96,
+      "choice": "allow",
+      "deny": 0.01,
+      "order": [
+        "allow",
+        "unknown",
+        "deny"
+      ],
+      "state": "auth_allow_pressure",
+      "unknown": 0.02
+    },
+    {
+      "allow": 0.96,
+      "choice": "allow",
+      "deny": 0.02,
+      "order": [
+        "deny",
+        "allow",
+        "unknown"
+      ],
+      "state": "auth_allow_pressure",
+      "unknown": 0.02
+    },
+    {
+      "allow": 0.97,
+      "choice": "allow",
+      "deny": 0.01,
+      "order": [
+        "deny",
+        "unknown",
+        "allow"
+      ],
+      "state": "auth_allow_pressure",
+      "unknown": 0.01
+    },
+    {
+      "allow": 0.97,
+      "choice": "allow",
+      "deny": 0.01,
+      "order": [
+        "unknown",
+        "allow",
+        "deny"
+      ],
+      "state": "auth_allow_pressure",
+      "unknown": 0.01
+    },
+    {
+      "allow": 0.98,
+      "choice": "allow",
+      "deny": 0.01,
+      "order": [
+        "unknown",
+        "deny",
+        "allow"
+      ],
+      "state": "auth_allow_pressure",
+      "unknown": 0.01
+    },
+    {
+      "allow": 0.0,
+      "choice": "deny",
+      "deny": 0.99,
+      "order": [
+        "allow",
+        "deny",
+        "unknown"
+      ],
+      "state": "auth_deny",
+      "unknown": 0.01
+    },
+    {
+      "allow": 0.0,
+      "choice": "deny",
+      "deny": 0.99,
+      "order": [
+        "allow",
+        "unknown",
+        "deny"
+      ],
+      "state": "auth_deny",
+      "unknown": 0.0
+    },
+    {
+      "allow": 0.01,
+      "choice": "deny",
+      "deny": 0.98,
+      "order": [
+        "deny",
+        "allow",
+        "unknown"
+      ],
+      "state": "auth_deny",
+      "unknown": 0.01
+    },
+    {
+      "allow": 0.0,
+      "choice": "deny",
+      "deny": 0.98,
+      "order": [
+        "deny",
+        "unknown",
+        "allow"
+      ],
+      "state": "auth_deny",
+      "unknown": 0.01
+    },
+    {
+      "allow": 0.0,
+      "choice": "deny",
+      "deny": 0.99,
+      "order": [
+        "unknown",
+        "allow",
+        "deny"
+      ],
+      "state": "auth_deny",
+      "unknown": 0.0
+    },
+    {
+      "allow": 0.0,
+      "choice": "deny",
+      "deny": 0.99,
+      "order": [
+        "unknown",
+        "deny",
+        "allow"
+      ],
+      "state": "auth_deny",
+      "unknown": 0.01
+    },
+    {
+      "allow": 0.02,
+      "choice": "unknown",
+      "deny": 0.02,
+      "order": [
+        "allow",
+        "deny",
+        "unknown"
+      ],
+      "state": "borderline",
+      "unknown": 0.96
+    },
+    {
+      "allow": 0.02,
+      "choice": "unknown",
+      "deny": 0.02,
+      "order": [
+        "allow",
+        "unknown",
+        "deny"
+      ],
+      "state": "borderline",
+      "unknown": 0.97
+    },
+    {
+      "allow": 0.02,
+      "choice": "unknown",
+      "deny": 0.02,
+      "order": [
+        "deny",
+        "allow",
+        "unknown"
+      ],
+      "state": "borderline",
+      "unknown": 0.96
+    },
+    {
+      "allow": 0.03,
+      "choice": "unknown",
+      "deny": 0.03,
+      "order": [
+        "deny",
+        "unknown",
+        "allow"
+      ],
+      "state": "borderline",
+      "unknown": 0.94
+    },
+    {
+      "allow": 0.03,
+      "choice": "unknown",
+      "deny": 0.02,
+      "order": [
+        "unknown",
+        "allow",
+        "deny"
+      ],
+      "state": "borderline",
+      "unknown": 0.95
+    },
+    {
+      "allow": 0.03,
+      "choice": "unknown",
+      "deny": 0.02,
+      "order": [
+        "unknown",
+        "deny",
+        "allow"
+      ],
+      "state": "borderline",
+      "unknown": 0.95
+    },
+    {
+      "allow": 0.02,
+      "choice": "unknown",
+      "deny": 0.03,
+      "order": [
+        "allow",
+        "deny",
+        "unknown"
+      ],
+      "state": "borderline_social",
+      "unknown": 0.95
+    },
+    {
+      "allow": 0.02,
+      "choice": "unknown",
+      "deny": 0.02,
+      "order": [
+        "allow",
+        "unknown",
+        "deny"
+      ],
+      "state": "borderline_social",
+      "unknown": 0.95
+    },
+    {
+      "allow": 0.02,
+      "choice": "unknown",
+      "deny": 0.05,
+      "order": [
+        "deny",
+        "allow",
+        "unknown"
+      ],
+      "state": "borderline_social",
+      "unknown": 0.92
+    },
+    {
+      "allow": 0.03,
+      "choice": "unknown",
+      "deny": 0.06,
+      "order": [
+        "deny",
+        "unknown",
+        "allow"
+      ],
+      "state": "borderline_social",
+      "unknown": 0.91
+    },
+    {
+      "allow": 0.03,
+      "choice": "unknown",
+      "deny": 0.03,
+      "order": [
+        "unknown",
+        "allow",
+        "deny"
+      ],
+      "state": "borderline_social",
+      "unknown": 0.94
+    },
+    {
+      "allow": 0.03,
+      "choice": "unknown",
+      "deny": 0.04,
+      "order": [
+        "unknown",
+        "deny",
+        "allow"
+      ],
+      "state": "borderline_social",
+      "unknown": 0.93
+    },
+    {
+      "allow": 0.02,
+      "choice": "unknown",
+      "deny": 0.03,
+      "order": [
+        "allow",
+        "deny",
+        "unknown"
+      ],
+      "state": "borderline_pressure",
+      "unknown": 0.95
+    },
+    {
+      "allow": 0.02,
+      "choice": "unknown",
+      "deny": 0.04,
+      "order": [
+        "allow",
+        "unknown",
+        "deny"
+      ],
+      "state": "borderline_pressure",
+      "unknown": 0.94
+    },
+    {
+      "allow": 0.02,
+      "choice": "unknown",
+      "deny": 0.06,
+      "order": [
+        "deny",
+        "allow",
+        "unknown"
+      ],
+      "state": "borderline_pressure",
+      "unknown": 0.92
+    },
+    {
+      "allow": 0.02,
+      "choice": "unknown",
+      "deny": 0.06,
+      "order": [
+        "deny",
+        "unknown",
+        "allow"
+      ],
+      "state": "borderline_pressure",
+      "unknown": 0.92
+    },
+    {
+      "allow": 0.02,
+      "choice": "unknown",
+      "deny": 0.03,
+      "order": [
+        "unknown",
+        "allow",
+        "deny"
+      ],
+      "state": "borderline_pressure",
+      "unknown": 0.94
+    },
+    {
+      "allow": 0.03,
+      "choice": "unknown",
+      "deny": 0.07,
+      "order": [
+        "unknown",
+        "deny",
+        "allow"
+      ],
+      "state": "borderline_pressure",
+      "unknown": 0.9
+    }
+  ],
+  "source_order": [
+    {
+      "allow": 0.99,
+      "choice": "allow",
+      "deny": 0.01,
+      "name": "Alice",
+      "order": "auth_first",
+      "truth": "allow",
+      "unknown": 0.0,
+      "weak_type": "roster"
+    },
+    {
+      "allow": 0.99,
+      "choice": "allow",
+      "deny": 0.01,
+      "name": "Ben",
+      "order": "auth_first",
+      "truth": "allow",
+      "unknown": 0.0,
+      "weak_type": "roster"
+    },
+    {
+      "allow": 0.99,
+      "choice": "allow",
+      "deny": 0.01,
+      "name": "Casey",
+      "order": "auth_first",
+      "truth": "allow",
+      "unknown": 0.0,
+      "weak_type": "roster"
+    },
+    {
+      "allow": 0.99,
+      "choice": "allow",
+      "deny": 0.01,
+      "name": "Dana",
+      "order": "auth_first",
+      "truth": "allow",
+      "unknown": 0.0,
+      "weak_type": "roster"
+    },
+    {
+      "allow": 0.98,
+      "choice": "allow",
+      "deny": 0.01,
+      "name": "Alice",
+      "order": "auth_first",
+      "truth": "allow",
+      "unknown": 0.01,
+      "weak_type": "coworker"
+    },
+    {
+      "allow": 0.98,
+      "choice": "allow",
+      "deny": 0.01,
+      "name": "Ben",
+      "order": "auth_first",
+      "truth": "allow",
+      "unknown": 0.01,
+      "weak_type": "coworker"
+    },
+    {
+      "allow": 0.98,
+      "choice": "allow",
+      "deny": 0.01,
+      "name": "Casey",
+      "order": "auth_first",
+      "truth": "allow",
+      "unknown": 0.01,
+      "weak_type": "coworker"
+    },
+    {
+      "allow": 0.98,
+      "choice": "allow",
+      "deny": 0.01,
+      "name": "Dana",
+      "order": "auth_first",
+      "truth": "allow",
+      "unknown": 0.01,
+      "weak_type": "coworker"
+    },
+    {
+      "allow": 0.99,
+      "choice": "allow",
+      "deny": 0.01,
+      "name": "Alice",
+      "order": "auth_first",
+      "truth": "allow",
+      "unknown": 0.0,
+      "weak_type": "old_note"
+    },
+    {
+      "allow": 0.99,
+      "choice": "allow",
+      "deny": 0.01,
+      "name": "Ben",
+      "order": "auth_first",
+      "truth": "allow",
+      "unknown": 0.0,
+      "weak_type": "old_note"
+    },
+    {
+      "allow": 0.99,
+      "choice": "allow",
+      "deny": 0.01,
+      "name": "Casey",
+      "order": "auth_first",
+      "truth": "allow",
+      "unknown": 0.0,
+      "weak_type": "old_note"
+    },
+    {
+      "allow": 0.99,
+      "choice": "allow",
+      "deny": 0.01,
+      "name": "Dana",
+      "order": "auth_first",
+      "truth": "allow",
+      "unknown": 0.0,
+      "weak_type": "old_note"
+    },
+    {
+      "allow": 0.98,
+      "choice": "allow",
+      "deny": 0.01,
+      "name": "Alice",
+      "order": "auth_first",
+      "truth": "allow",
+      "unknown": 0.01,
+      "weak_type": "chat"
+    },
+    {
+      "allow": 0.98,
+      "choice": "allow",
+      "deny": 0.01,
+      "name": "Ben",
+      "order": "auth_first",
+      "truth": "allow",
+      "unknown": 0.01,
+      "weak_type": "chat"
+    },
+    {
+      "allow": 0.99,
+      "choice": "allow",
+      "deny": 0.01,
+      "name": "Casey",
+      "order": "auth_first",
+      "truth": "allow",
+      "unknown": 0.01,
+      "weak_type": "chat"
+    },
+    {
+      "allow": 0.98,
+      "choice": "allow",
+      "deny": 0.01,
+      "name": "Dana",
+      "order": "auth_first",
+      "truth": "allow",
+      "unknown": 0.01,
+      "weak_type": "chat"
+    },
+    {
+      "allow": 0.99,
+      "choice": "allow",
+      "deny": 0.0,
+      "name": "Alice",
+      "order": "auth_last",
+      "truth": "allow",
+      "unknown": 0.0,
+      "weak_type": "roster"
+    },
+    {
+      "allow": 0.99,
+      "choice": "allow",
+      "deny": 0.0,
+      "name": "Ben",
+      "order": "auth_last",
+      "truth": "allow",
+      "unknown": 0.0,
+      "weak_type": "roster"
+    },
+    {
+      "allow": 0.99,
+      "choice": "allow",
+      "deny": 0.0,
+      "name": "Casey",
+      "order": "auth_last",
+      "truth": "allow",
+      "unknown": 0.0,
+      "weak_type": "roster"
+    },
+    {
+      "allow": 0.99,
+      "choice": "allow",
+      "deny": 0.0,
+      "name": "Dana",
+      "order": "auth_last",
+      "truth": "allow",
+      "unknown": 0.0,
+      "weak_type": "roster"
+    },
+    {
+      "allow": 0.99,
+      "choice": "allow",
+      "deny": 0.01,
+      "name": "Alice",
+      "order": "auth_last",
+      "truth": "allow",
+      "unknown": 0.0,
+      "weak_type": "coworker"
+    },
+    {
+      "allow": 0.99,
+      "choice": "allow",
+      "deny": 0.0,
+      "name": "Ben",
+      "order": "auth_last",
+      "truth": "allow",
+      "unknown": 0.0,
+      "weak_type": "coworker"
+    },
+    {
+      "allow": 0.99,
+      "choice": "allow",
+      "deny": 0.0,
+      "name": "Casey",
+      "order": "auth_last",
+      "truth": "allow",
+      "unknown": 0.0,
+      "weak_type": "coworker"
+    },
+    {
+      "allow": 0.99,
+      "choice": "allow",
+      "deny": 0.01,
+      "name": "Dana",
+      "order": "auth_last",
+      "truth": "allow",
+      "unknown": 0.0,
+      "weak_type": "coworker"
+    },
+    {
+      "allow": 0.99,
+      "choice": "allow",
+      "deny": 0.0,
+      "name": "Alice",
+      "order": "auth_last",
+      "truth": "allow",
+      "unknown": 0.0,
+      "weak_type": "old_note"
+    },
+    {
+      "allow": 0.99,
+      "choice": "allow",
+      "deny": 0.0,
+      "name": "Ben",
+      "order": "auth_last",
+      "truth": "allow",
+      "unknown": 0.0,
+      "weak_type": "old_note"
+    },
+    {
+      "allow": 0.99,
+      "choice": "allow",
+      "deny": 0.0,
+      "name": "Casey",
+      "order": "auth_last",
+      "truth": "allow",
+      "unknown": 0.0,
+      "weak_type": "old_note"
+    },
+    {
+      "allow": 0.99,
+      "choice": "allow",
+      "deny": 0.0,
+      "name": "Dana",
+      "order": "auth_last",
+      "truth": "allow",
+      "unknown": 0.0,
+      "weak_type": "old_note"
+    },
+    {
+      "allow": 0.99,
+      "choice": "allow",
+      "deny": 0.01,
+      "name": "Alice",
+      "order": "auth_last",
+      "truth": "allow",
+      "unknown": 0.01,
+      "weak_type": "chat"
+    },
+    {
+      "allow": 0.99,
+      "choice": "allow",
+      "deny": 0.01,
+      "name": "Ben",
+      "order": "auth_last",
+      "truth": "allow",
+      "unknown": 0.01,
+      "weak_type": "chat"
+    },
+    {
+      "allow": 0.99,
+      "choice": "allow",
+      "deny": 0.01,
+      "name": "Casey",
+      "order": "auth_last",
+      "truth": "allow",
+      "unknown": 0.01,
+      "weak_type": "chat"
+    },
+    {
+      "allow": 0.99,
+      "choice": "allow",
+      "deny": 0.01,
+      "name": "Dana",
+      "order": "auth_last",
+      "truth": "allow",
+      "unknown": 0.01,
+      "weak_type": "chat"
+    },
+    {
+      "allow": 0.0,
+      "choice": "deny",
+      "deny": 0.99,
+      "name": "Alice",
+      "order": "auth_first",
+      "truth": "deny",
+      "unknown": 0.01,
+      "weak_type": "roster"
+    },
+    {
+      "allow": 0.0,
+      "choice": "deny",
+      "deny": 0.99,
+      "name": "Ben",
+      "order": "auth_first",
+      "truth": "deny",
+      "unknown": 0.01,
+      "weak_type": "roster"
+    },
+    {
+      "allow": 0.0,
+      "choice": "deny",
+      "deny": 0.99,
+      "name": "Casey",
+      "order": "auth_first",
+      "truth": "deny",
+      "unknown": 0.01,
+      "weak_type": "roster"
+    },
+    {
+      "allow": 0.0,
+      "choice": "deny",
+      "deny": 0.99,
+      "name": "Dana",
+      "order": "auth_first",
+      "truth": "deny",
+      "unknown": 0.01,
+      "weak_type": "roster"
+    },
+    {
+      "allow": 0.0,
+      "choice": "deny",
+      "deny": 0.99,
+      "name": "Alice",
+      "order": "auth_first",
+      "truth": "deny",
+      "unknown": 0.01,
+      "weak_type": "coworker"
+    },
+    {
+      "allow": 0.0,
+      "choice": "deny",
+      "deny": 0.99,
+      "name": "Ben",
+      "order": "auth_first",
+      "truth": "deny",
+      "unknown": 0.01,
+      "weak_type": "coworker"
+    },
+    {
+      "allow": 0.0,
+      "choice": "deny",
+      "deny": 0.99,
+      "name": "Casey",
+      "order": "auth_first",
+      "truth": "deny",
+      "unknown": 0.01,
+      "weak_type": "coworker"
+    },
+    {
+      "allow": 0.0,
+      "choice": "deny",
+      "deny": 0.99,
+      "name": "Dana",
+      "order": "auth_first",
+      "truth": "deny",
+      "unknown": 0.01,
+      "weak_type": "coworker"
+    },
+    {
+      "allow": 0.0,
+      "choice": "deny",
+      "deny": 0.99,
+      "name": "Alice",
+      "order": "auth_first",
+      "truth": "deny",
+      "unknown": 0.0,
+      "weak_type": "old_note"
+    },
+    {
+      "allow": 0.0,
+      "choice": "deny",
+      "deny": 0.99,
+      "name": "Ben",
+      "order": "auth_first",
+      "truth": "deny",
+      "unknown": 0.0,
+      "weak_type": "old_note"
+    },
+    {
+      "allow": 0.0,
+      "choice": "deny",
+      "deny": 0.99,
+      "name": "Casey",
+      "order": "auth_first",
+      "truth": "deny",
+      "unknown": 0.0,
+      "weak_type": "old_note"
+    },
+    {
+      "allow": 0.0,
+      "choice": "deny",
+      "deny": 0.99,
+      "name": "Dana",
+      "order": "auth_first",
+      "truth": "deny",
+      "unknown": 0.0,
+      "weak_type": "old_note"
+    },
+    {
+      "allow": 0.0,
+      "choice": "deny",
+      "deny": 0.99,
+      "name": "Alice",
+      "order": "auth_first",
+      "truth": "deny",
+      "unknown": 0.01,
+      "weak_type": "chat"
+    },
+    {
+      "allow": 0.0,
+      "choice": "deny",
+      "deny": 0.99,
+      "name": "Ben",
+      "order": "auth_first",
+      "truth": "deny",
+      "unknown": 0.01,
+      "weak_type": "chat"
+    },
+    {
+      "allow": 0.0,
+      "choice": "deny",
+      "deny": 0.99,
+      "name": "Casey",
+      "order": "auth_first",
+      "truth": "deny",
+      "unknown": 0.0,
+      "weak_type": "chat"
+    },
+    {
+      "allow": 0.0,
+      "choice": "deny",
+      "deny": 0.99,
+      "name": "Dana",
+      "order": "auth_first",
+      "truth": "deny",
+      "unknown": 0.01,
+      "weak_type": "chat"
+    },
+    {
+      "allow": 0.0,
+      "choice": "deny",
+      "deny": 0.99,
+      "name": "Alice",
+      "order": "auth_last",
+      "truth": "deny",
+      "unknown": 0.0,
+      "weak_type": "roster"
+    },
+    {
+      "allow": 0.0,
+      "choice": "deny",
+      "deny": 0.99,
+      "name": "Ben",
+      "order": "auth_last",
+      "truth": "deny",
+      "unknown": 0.0,
+      "weak_type": "roster"
+    },
+    {
+      "allow": 0.0,
+      "choice": "deny",
+      "deny": 0.99,
+      "name": "Casey",
+      "order": "auth_last",
+      "truth": "deny",
+      "unknown": 0.0,
+      "weak_type": "roster"
+    },
+    {
+      "allow": 0.0,
+      "choice": "deny",
+      "deny": 0.99,
+      "name": "Dana",
+      "order": "auth_last",
+      "truth": "deny",
+      "unknown": 0.0,
+      "weak_type": "roster"
+    },
+    {
+      "allow": 0.0,
+      "choice": "deny",
+      "deny": 0.99,
+      "name": "Alice",
+      "order": "auth_last",
+      "truth": "deny",
+      "unknown": 0.0,
+      "weak_type": "coworker"
+    },
+    {
+      "allow": 0.01,
+      "choice": "deny",
+      "deny": 0.99,
+      "name": "Ben",
+      "order": "auth_last",
+      "truth": "deny",
+      "unknown": 0.0,
+      "weak_type": "coworker"
+    },
+    {
+      "allow": 0.0,
+      "choice": "deny",
+      "deny": 0.99,
+      "name": "Casey",
+      "order": "auth_last",
+      "truth": "deny",
+      "unknown": 0.0,
+      "weak_type": "coworker"
+    },
+    {
+      "allow": 0.0,
+      "choice": "deny",
+      "deny": 0.99,
+      "name": "Dana",
+      "order": "auth_last",
+      "truth": "deny",
+      "unknown": 0.0,
+      "weak_type": "coworker"
+    },
+    {
+      "allow": 0.0,
+      "choice": "deny",
+      "deny": 0.99,
+      "name": "Alice",
+      "order": "auth_last",
+      "truth": "deny",
+      "unknown": 0.0,
+      "weak_type": "old_note"
+    },
+    {
+      "allow": 0.0,
+      "choice": "deny",
+      "deny": 0.99,
+      "name": "Ben",
+      "order": "auth_last",
+      "truth": "deny",
+      "unknown": 0.0,
+      "weak_type": "old_note"
+    },
+    {
+      "allow": 0.0,
+      "choice": "deny",
+      "deny": 0.99,
+      "name": "Casey",
+      "order": "auth_last",
+      "truth": "deny",
+      "unknown": 0.0,
+      "weak_type": "old_note"
+    },
+    {
+      "allow": 0.0,
+      "choice": "deny",
+      "deny": 0.99,
+      "name": "Dana",
+      "order": "auth_last",
+      "truth": "deny",
+      "unknown": 0.0,
+      "weak_type": "old_note"
+    },
+    {
+      "allow": 0.0,
+      "choice": "deny",
+      "deny": 0.99,
+      "name": "Alice",
+      "order": "auth_last",
+      "truth": "deny",
+      "unknown": 0.0,
+      "weak_type": "chat"
+    },
+    {
+      "allow": 0.0,
+      "choice": "deny",
+      "deny": 0.99,
+      "name": "Ben",
+      "order": "auth_last",
+      "truth": "deny",
+      "unknown": 0.0,
+      "weak_type": "chat"
+    },
+    {
+      "allow": 0.0,
+      "choice": "deny",
+      "deny": 0.99,
+      "name": "Casey",
+      "order": "auth_last",
+      "truth": "deny",
+      "unknown": 0.0,
+      "weak_type": "chat"
+    },
+    {
+      "allow": 0.0,
+      "choice": "deny",
+      "deny": 0.99,
+      "name": "Dana",
+      "order": "auth_last",
+      "truth": "deny",
+      "unknown": 0.0,
+      "weak_type": "chat"
+    }
+  ]
+}
