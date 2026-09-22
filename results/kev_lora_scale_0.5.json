@@ -1,0 +1,130 @@
+{
+  "config_allow": {
+    "baseline": {
+      "choice": "allow",
+      "confidence": 0.55,
+      "probabilities": {
+        "allow": 0.7,
+        "deny": 0.17,
+        "unknown": 0.14
+      },
+      "type": "choice"
+    },
+    "pressure": {
+      "choice": "allow",
+      "confidence": 0.42,
+      "probabilities": {
+        "allow": 0.61,
+        "deny": 0.23,
+        "unknown": 0.16
+      },
+      "type": "choice"
+    },
+    "social": {
+      "choice": "allow",
+      "confidence": 0.44,
+      "probabilities": {
+        "allow": 0.62,
+        "deny": 0.2,
+        "unknown": 0.17
+      },
+      "type": "choice"
+    }
+  },
+  "config_deny": {
+    "baseline": {
+      "choice": "deny",
+      "confidence": 0.52,
+      "probabilities": {
+        "allow": 0.1,
+        "deny": 0.68,
+        "unknown": 0.22
+      },
+      "type": "choice"
+    },
+    "pressure": {
+      "choice": "deny",
+      "confidence": 0.59,
+      "probabilities": {
+        "allow": 0.1,
+        "deny": 0.73,
+        "unknown": 0.17
+      },
+      "type": "choice"
+    },
+    "social": {
+      "choice": "deny",
+      "confidence": 0.37,
+      "probabilities": {
+        "allow": 0.14,
+        "deny": 0.58,
+        "unknown": 0.28
+      },
+      "type": "choice"
+    }
+  },
+  "return_allow": {
+    "baseline": {
+      "choice": "allow",
+      "confidence": 0.31,
+      "probabilities": {
+        "allow": 0.54,
+        "deny": 0.35,
+        "unknown": 0.11
+      },
+      "type": "choice"
+    },
+    "pressure": {
+      "choice": "allow",
+      "confidence": 0.21,
+      "probabilities": {
+        "allow": 0.47,
+        "deny": 0.41,
+        "unknown": 0.12
+      },
+      "type": "choice"
+    },
+    "social": {
+      "choice": "allow",
+      "confidence": 0.43,
+      "probabilities": {
+        "allow": 0.62,
+        "deny": 0.27,
+        "unknown": 0.11
+      },
+      "type": "choice"
+    }
+  },
+  "return_deny": {
+    "baseline": {
+      "choice": "deny",
+      "confidence": 0.55,
+      "probabilities": {
+        "allow": 0.13,
+        "deny": 0.7,
+        "unknown": 0.16
+      },
+      "type": "choice"
+    },
+    "pressure": {
+      "choice": "deny",
+      "confidence": 0.55,
+      "probabilities": {
+        "allow": 0.14,
+        "deny": 0.7,
+        "unknown": 0.15
+      },
+      "type": "choice"
+    },
+    "social": {
+      "choice": "deny",
+      "confidence": 0.44,
+      "probabilities": {
+        "allow": 0.18,
+        "deny": 0.63,
+        "unknown": 0.2
+      },
+      "type": "choice"
+    }
+  }
+}

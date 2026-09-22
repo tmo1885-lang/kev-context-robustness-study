@@ -1,0 +1,102 @@
+{
+  "auth_allow_clean": {
+    "choice": "allow",
+    "confidence": 1.0,
+    "probabilities": {
+      "allow": 1.0,
+      "deny": 0.0,
+      "unknown": 0.0
+    },
+    "type": "choice"
+  },
+  "auth_allow_pressure": {
+    "choice": "allow",
+    "confidence": 0.92,
+    "probabilities": {
+      "allow": 0.95,
+      "deny": 0.03,
+      "unknown": 0.02
+    },
+    "type": "choice"
+  },
+  "auth_allow_social": {
+    "choice": "allow",
+    "confidence": 0.74,
+    "probabilities": {
+      "allow": 0.83,
+      "deny": 0.08,
+      "unknown": 0.09
+    },
+    "type": "choice"
+  },
+  "borderline_clean": {
+    "choice": "unknown",
+    "confidence": 0.37,
+    "probabilities": {
+      "allow": 0.07,
+      "deny": 0.36,
+      "unknown": 0.58
+    },
+    "type": "choice"
+  },
+  "borderline_pressure": {
+    "choice": "unknown",
+    "confidence": 0.26,
+    "probabilities": {
+      "allow": 0.07,
+      "deny": 0.42,
+      "unknown": 0.51
+    },
+    "type": "choice"
+  },
+  "borderline_social": {
+    "choice": "deny",
+    "confidence": 0.24,
+    "probabilities": {
+      "allow": 0.08,
+      "deny": 0.5,
+      "unknown": 0.43
+    },
+    "type": "choice"
+  },
+  "contradict_allow_auth_first": {
+    "choice": "allow",
+    "confidence": 0.99,
+    "probabilities": {
+      "allow": 0.99,
+      "deny": 0.01,
+      "unknown": 0.0
+    },
+    "type": "choice"
+  },
+  "contradict_allow_auth_last": {
+    "choice": "deny",
+    "confidence": 0.19,
+    "probabilities": {
+      "allow": 0.44,
+      "deny": 0.46,
+      "unknown": 0.1
+    },
+    "type": "choice"
+  },
+  "contradict_deny_auth_first": {
+    "choice": "deny",
+    "confidence": 0.94,
+    "probabilities": {
+      "allow": 0.01,
+      "deny": 0.96,
+      "unknown": 0.03
+    },
+    "type": "choice"
+  },
+  "contradict_deny_auth_last": {
+    "choice": "deny",
+    "confidence": 0.93,
+    "probabilities": {
+      "allow": 0.02,
+      "deny": 0.96,
+      "unknown": 0.02
+    },
+    "type": "choice"
+  }
+}

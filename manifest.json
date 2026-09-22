@@ -1,0 +1,127 @@
+{
+  "study": "kev-context-robustness",
+  "frozen_date": "2026-09-21",
+  "repository": "tmo1885-lang/kev-context-robustness-study",
+  "source_experiment_repository": "tmo1885-lang/kev",
+  "source_experiment_branch": "research/context-robustness",
+  "source_experiment_commit": "69cf579a1fdf24998fa9554f2fcadbdd1f354230",
+  "opening_kev_base": "f0ae8fb9af5762254974dcdba8c82cbf48587b2e",
+  "pre_record_head": "e0b01d51b7c5acfb405657236de19f7dd541c0eb",
+  "models": {
+    "kev-0.8b": {
+      "hub": "jaredpalmer/kev-0.8b",
+      "revision": "54f4f8777356cd5bbbb6c6919c657f26e6f2f6d8"
+    },
+    "kev-4b": {
+      "hub": "jaredpalmer/kev-4b",
+      "revision": "485ace8703592fcf405488b262449990824cfed1"
+    }
+  },
+  "result_files": [
+    {
+      "bytes": 73312,
+      "path": "results/kev4b_instruction_schema_context.json",
+      "sha256": "751b98fdf4c8ef28a1e0c7344eccd996cedc0c898a0e255523016a21b481c8af"
+    },
+    {
+      "bytes": 8329,
+      "path": "results/kev4b_lora_ablation.json",
+      "sha256": "262ec9d502ff35b688d9ab39ebac3d393b8fb5da5047274bc181cfd0f401fe6f"
+    },
+    {
+      "bytes": 531,
+      "path": "results/kev4b_modal_run_meta.json",
+      "sha256": "a846b82a69b1b621c2e338d24c9f8e288cf0e4bce735299b521d88b14c02468f"
+    },
+    {
+      "bytes": 21968,
+      "path": "results/kev4b_source_and_option_order_controls.json",
+      "sha256": "1bfe023becf3e4af1e825f9d4d9d0f79ee9a3b6c930d2c5b8de1e5e4b3f9ae26"
+    },
+    {
+      "bytes": 26893,
+      "path": "results/kev4b_vs_08b_matched_comparison.csv",
+      "sha256": "be3a77f7211150a071e892d8d88c664704f1ba960167b719c671a4f1144be1a6"
+    },
+    {
+      "bytes": 1947,
+      "path": "results/kev_calibrated_subset.json",
+      "sha256": "aee09773e0bb35d09777b27b90e1255ff7b12814c5ed50403945c494f4cd01d9"
+    },
+    {
+      "bytes": 1966,
+      "path": "results/kev_cross_domain_hard_rules.csv",
+      "sha256": "2ed06cdadb0d942cdfd28ff26bf7a6a9a41b83f5c5f62e7dd96516865595fd68"
+    },
+    {
+      "bytes": 3205,
+      "path": "results/kev_cross_domain_non_authorization_raw.csv",
+      "sha256": "464c34f5d5bb56ac35a7833bcacac9e8d547a8086def30845d427d71e99e199c"
+    },
+    {
+      "bytes": 3207,
+      "path": "results/kev_evidence_location_authority.csv",
+      "sha256": "fcacec383e9affcab8a075fcfd795103cd3f42d86f3e0cf12383982f07151ede"
+    },
+    {
+      "bytes": 2197,
+      "path": "results/kev_evidence_strength_curve.csv",
+      "sha256": "9ee504bc20825f1499690d0ad0ccaf2e7a9625b40a7fa2e55f2309902efe4a1b"
+    },
+    {
+      "bytes": 4691,
+      "path": "results/kev_evidence_strength_curve_raw.csv",
+      "sha256": "cf135fe6d998434e48ee18d1d568d5551636291eb02dda471762aac4da0900c3"
+    },
+    {
+      "bytes": 19848,
+      "path": "results/kev_instruction_schema_context.csv",
+      "sha256": "cbaecc1d9dd0f5488bae348610f78ec6950799ae7f1c189f5deeddfe4fb9b804"
+    },
+    {
+      "bytes": 2487,
+      "path": "results/kev_lora_scale_0.0.json",
+      "sha256": "549828c2677333cbf9ffe5862f1bf75e752737bf9e3830ee447eedd5c4aa9695"
+    },
+    {
+      "bytes": 2499,
+      "path": "results/kev_lora_scale_0.5.json",
+      "sha256": "2ca5401ac2e8df79e4c9010de9fecc2c193adf137858c64b22b3091aa4f95a1b"
+    },
+    {
+      "bytes": 2503,
+      "path": "results/kev_lora_scale_1.0.json",
+      "sha256": "be833a5cedcce9191ddfa50147633b6a142da01968663cb8861ff37682da1244"
+    },
+    {
+      "bytes": 3636,
+      "path": "results/kev_negative_evidence_symmetry.csv",
+      "sha256": "085d25b3a0abcccdf3ee017ce022c526bb231ff03053ab3dbe0268eb3338eeee"
+    },
+    {
+      "bytes": 2879,
+      "path": "results/kev_option_label_semantics_raw.csv",
+      "sha256": "e3f589fd95d49a69501fff089cc9dc2596e14e601444d35c06dfefba5bcaf9c1"
+    },
+    {
+      "bytes": 6317,
+      "path": "results/kev_prompt_context_factorial.csv",
+      "sha256": "7529642628d698650a06a08d5fd16baad7bb5b190019b3bcc9a11b4a5b3db692"
+    },
+    {
+      "bytes": 1943,
+      "path": "results/kev_raw_subset.json",
+      "sha256": "b557bbbd3d232bcffc09b2f2dd83617828a9ea1d6b01915f73578110f9e7dafa"
+    },
+    {
+      "bytes": 5796,
+      "path": "results/kev_robustness_matrix.csv",
+      "sha256": "163d528e062c4717a268e819b9f50cb2aa65b32d7f230e0897dc751bc00b6b77"
+    },
+    {
+      "bytes": 2489,
+      "path": "results/qwen_base_direct_choice_control.json",
+      "sha256": "06737b29fe4000d4f374a570bf8debd475aac40c898ec90bfd1427137a18270f"
+    }
+  ]
+}
